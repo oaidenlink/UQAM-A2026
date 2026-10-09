@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@font-face {
+  font-family: StreetSoul;
+  src: url('_src/StreetSoul-ovXd.ttf')  format('truetype');
+}
+
+/* its css but bootstrap works????????????
+
+COLOURS: 
+    YELLOW :        #FBFFC2 
+    LIGHT BLUE :    #7BFBFE 
+    BLUE :          #2DB7FA 
+
+    INDIGO :        #163466 
+    DARK BLUE :     #040A29
+    DARK PURPLE :   #1B1548
+
+
+    Indent Line 	Ctrl+]
+
+    
+} */
+
+:root {
+    --jaune: #FBFFC2;
+    --lightblue:  #7BFBFE;
+    --blue: #2DB7FA;
+    --indigo: #163466;
+    --darkblue: #040A29;
+    --purple: #1B1548;
+}
+
+body {
+    color: white;
+    background: var(--darkblue);
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: auto 0;
+
+    h1 {
+        font-family: StreetSoul;
+        font-size: 3em;
+        margin: 1em 0.5em;
+        margin-bottom: -1em;
+        padding-bottom: 0;
+    }
+
+    h2, h3 {
+      color: var(--blue);
+      text-transform: uppercase;
+      margin-top: 2em;
+    }
+
+    p {
+      margin: auto 1.5em;
+      margin-bottom: 1em;
+    }
+
+    nav {
+      background-color: var(--purple);
+        width: 100vw;
+        height: 3em;
+        display: flex;
+        justify-content: space-around;
+        margin-left: -0.1em;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: var(--jaune);
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+
+            &:hover {
+                color: var(--lightblue);
+            }
+
+            &:visited {
+                color: var(--jaune);
+            }
+
+            &:active {
+                color: var(--darkblue);   
+            }
+        } 
+    }
+
+    footer {
+      background-color: var(--purple);
+      width: 100vw;
+      height: 14em;
+
+      div.first {
+        padding-top: 0.5em;
+        margin-bottom: 2em;
+
+        a {
+          color: var(--lightblue);
+          font-weight: bold;
+          padding: 0;
+          margin: 0;
+
+          &:hover {
+            color: var(--lightblue);
+          }
+
+          &:visited {
+            color: var(--lightblue);
+          }
+
+          &:active {
+            color: var(--darkblue);   
+          }
+        } 
+      }
+
+      div.second {
+        margin-bottom: 1em;
+
+        a {
+          text-decoration: none;
+          color: var(--jaune);
+          font-weight: bold;
+          padding: 0;
+          margin: 0;
+
+          &:hover {
+            color: var(--lightblue);
+          }
+
+          &:visited {
+            color: var(--jaune);
+          }
+
+          &:active {
+            color: var(--darkblue);   
+          }
+        } 
+      }
+      
+    }
+
+    /* HOME - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+    div.home {
+        justify-content: center;
+
+            img {
+                width: 90vw;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            div.logo {
+              position: relative;
+
+              img.fondblanc {
+                position: absolute;
+                left: 5em;
+                top: 3.5em;
+                rotate: 20deg;
+                width: 55vw;
+                z-index: -10;
+                opacity: 40%;
+              }
+            }
+
+            div.warning {
+              strong {
+                font-weight: bolder;
+              }
+            }
+        }
+    
+    /* ABOUT - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    div.about {
+      
+      div.who {
+        margin: 4em 0;
+        justify-content: center;
+
+        img {
+          width: 90vw;
+          margin-top: 0;
+          padding-top: 0;
+        }
+
+        p.currently {
+          font-weight: bold;
+
+          span {
+            font-style: italic;
+          }
+        }
+      }
+
+      div.hobbies {
+        justify-content: center;
+
+        div.hobbiesBloc {
+          background-color: var(--indigo);
+          margin-bottom: 1em;
+
+          h3 {
+            padding-top: 0.5em;
+          }
+
+          p {
+            padding-bottom: 0.5em;
+
+            span {
+              font-style: italic;
+            }
+          }
+
+        }
+      }
+
+      div.cv {
+        justify-content: center;
+
+        div.apps {
+          background-color: var(--lightblue);
+          border-radius: 5%;
+          color: var(--darkblue);
+          width: 80vw;
+          margin: auto;
+          padding: 1em 0 0 0;
+          
+          p:last-of-type {
+            padding-bottom: 1em;
+          }
+        }
+      }
+    }
+
+    /* <div class="about">
+
+      <div class="cv">
+        <h2>Capabilities</h2>
+        <p>Here's a few of my talents in different programs!</p>
+
+        <div class="apps">
+          <p>Unity + VS Code</p>
+          <p>Clip Studio Paint</p>
+          <p>Photoshop</p>
+          <p>After Effects</p>
+          <p>Premiere Pro</p>
+        </div>
+      </div>
+
+    </div> */
+
+    /* CONTACT - - - - - - - - - - - - - - - - - - - - - - - - */
+    /* ART - - - - - - - - - - - - - - - - - - - - - - - - - - */
+    /* GAMES - - - - - - - - - - - - - - - - - - - - - - - - - */
+}

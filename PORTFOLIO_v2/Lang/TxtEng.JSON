@@ -1,0 +1,108 @@
+{
+    "Language": "Français",
+
+    "nav" : {
+        "home":"HOME",
+        "contact":"CONTACT",
+        "art":"ART",
+        "games":"GAMES"
+    },
+
+    "home" : {
+        "changelog": "Changelog",
+        "changelogTxt": "Currently building the website! If you still see this message that means I'm not done (and get out, i dont want to ruin the surprise!)",
+        "goals": "Goals",
+        "goalsTxt": "Finish this website before Christmas 2025. Find a way to make my .jsx files work so I can switch this website's language from English to French and vice versa. Optimize this website (because there's too many pictures). Finish NEO The World Ends With You so I can play Silksong.",
+        "updates": "Updates",
+        "updatesTxt": "I got accepted at Uni!!! Party!!!",
+        "warning": "Warning",
+        "warningStrong": "Content warning: some of my art might contain blood and gore, viewer discretion is advised.",
+        "warningTxt": "Website currently broken, please be mindful on your way in."
+    },
+
+    "contact" : {
+        "h1" : "Contacts",
+        "quickall": "Wanna contact me? You got it!",
+        "quickcallEmail": "estrellaoffthehook@gmail.com",
+        "quickcallOops": "yes, the email is mispelt, sorry guys i'm an idiot ;-;",
+
+        "socials": "My socials",
+        "socialsDesc": "Here's a few of my social media accounts! Be mindful of how often I use them, I have abandonned some of them over the years...",
+
+        "accLink": "Link",
+
+        "accItch": "Itch.io",
+        "accItchDesc": "Main place to find my games! As well as my GameJam participations",
+        "accItchUsage": "Usage: High",
+
+        "accBluesky": "Bluesky",
+        "accBlueskyDesc": "Just got into it! Will probably be more active once I figure out why my notifs don't appear...",
+        "accBlueskyUsage": "Usage: Medium",
+
+        "accTumblr": "Tumblr",
+        "accTumblrDesc": "Not as active to post, but I like and share a lot of stuff there!",
+        "accTumblrUsage": "Usage: Medium",
+
+        "accLinkedIn": "LinkedIn",
+        "accLinkedInDesc": "Already looking for an internship for Spring 2028...",
+        "accLinkedInUsage": "Usage: Medium",
+
+        "accInstagram": "Instagram",
+        "accInstagramDesc": "R.I.P. Insta",
+        "accInstagramUsage": "Usage: Low",
+
+        "accOther": "Other accounts",
+        "accOtherUsage": "Usage: Low",
+        "accTwt": "Twitter / X",
+        "accBehance": "Behance",
+        "accDerivative": "Derivative",
+        "accSpaceHey": "SpaceHey",
+
+        "aboutMe": "Hi, I'm Estrela!",
+        "aboutDesc": "You can also call me by my middle name (and internet alias), Link! I'm a full time University student at UQAM learning about interactive media and other really fun mediums. I'm also a part-timer at a retail store (you can never outrun retail) and I make games on the side. A lot of stuff, I know... Tune in after my semester to see if I got around to finishing a game!",
+        "aboutStatus": "STATUS : Currently stu<span>dying</span> in University",
+        "aboutHobbies": "Hobbies",
+        "aboutCurrent": "Currently: ",
+        "aboutGames": "Video Games",
+        "aboutGamesCurrent": "NEO: The World Ends With You",
+        "aboutArt": "Art",
+        "aboutArtCurrent": "Drawing more fanart 'cause I'm obsessed (ft. my OCs)",
+        "aboutRead": "Reading",
+        "aboutReadCurrent": "The Way Of Kings by Brandon Sanderson",
+
+        "capabilities": "Capabilities",
+        "capabDesc": "Here's a few of my talents in different programs!",
+        "capabUnity": "Unity + VS Code",
+        "capabClip": "Clip Studio Paint",
+        "capabPhotoshop": "Photoshop",
+        "capabAE": "After Effects",
+        "capabPremiere": "Premiere Pro"
+    },
+
+    "art" : {
+        "art": "Art projects",
+        "schoolTitle": "School Projects",
+        "schoolProjectA": "Title of the projects ///////////",
+        "schoolProjectALink" : "link to the page (if needed)",
+        "schoolProjectAMedia" : "media (art, digital anim, 3d)",
+        "personalTitle": "Personal Projects",
+        "personalProjectA" : "Name",
+        "personalProjectAMedia" : "art, digit, anim, 3d, 2d"
+    },
+
+    "games" : {
+        "games": "Game projects",
+        "gameLesAstres": "Les Astres de nos Complices",
+        "gameLesAstresDesc": "..........",
+        "gameLesAstresLink" : "itch.io fiefdsmkdnwj",
+        "gameOneTitle": "Name of the game",
+        "gameOneDesc": "descri^ption",
+        "gameOneLink": "link to the itch page"
+    },
+
+    "footer" : {
+        "footerTitle": "Contact",
+        "email": "estrellaoffthehook@gmail.com"
+    }
+
+}

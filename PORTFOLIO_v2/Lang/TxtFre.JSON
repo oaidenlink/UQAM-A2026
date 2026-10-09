@@ -1,0 +1,10 @@
+{
+    "Language": "English",
+
+    "nav" : {
+        "home":"ACCUEIL",
+        "contact":"CONTACT",
+        "art":"ART",
+        "games":"JEUX"
+    }
+}
