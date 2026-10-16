@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/BP_OSCSServer.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/BPI_OSCInterface.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/BP_OSCCube.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/CK/MAIWW9KBHPM1DZHPJ2VRY4.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/57/J5KGPZ4AFFDBSXAKR17SK8.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/LS/BU0RB2DZUN6VIZNK5H4DD7.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/5T/ID8FCURCN6580LWTCEXFDC.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/BP_MidiServer.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/NN/VDDSUHH0PSFO8T5CDEQHJK.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/BPI_MIDIInterface.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/BP_MidiCube.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours06/C06_MidiParticules/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/KK/JS5I30ROTGQ49EWUFCLRJK.uasset"
+			]
+		}
+	]
+}
