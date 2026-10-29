@@ -21,6 +21,28 @@ COLOURS:
     
 } */
 
+/*
+@media (min-width: 576px) {
+        background-color: red;
+      }
+
+      @media (min-width: 768px) {
+        background-color: red;
+      }
+
+      @media (min-width: 992px) {
+        background-color: red;
+      }
+
+              @media (min-width: 1200px) {
+                background-color: red;
+              }
+
+              @media (min-width: 1400px) {
+                background-color: red;
+              }
+*/
+
 :root {
     --jaune: #FBFFC2;
     --lightblue:  #7BFBFE;
@@ -39,19 +61,26 @@ body {
     margin: auto 0;
 
     h1 {
-        font-family: StreetSoul;
-        font-size: 3em;
-        margin: 1em 0.5em;
-        margin-bottom: -1em;
-        padding-bottom: 0;
+      font-family: StreetSoul;
+      font-size: 3em;
+      margin: 1em 0.5em;
+      margin-bottom: -1em;
+      padding-bottom: 0;
+      
     }
 
     h2, h3 {
       color: var(--blue);
       text-transform: uppercase;
       margin-top: 2em;
-    }
 
+    }
+    
+    @media (min-width: 768px) {
+      h3 {
+        font-size: 1.4em;
+      }
+    }
     p {
       margin: auto 1.5em;
       margin-bottom: 1em;
@@ -66,12 +95,30 @@ body {
         margin-left: -0.1em;
         align-items: center;
 
+        @media (min-width: 576px) {
+          font-size: 1.1em;
+        }
+
+        @media (min-width: 768px) {
+          font-size: 1.2em;
+        }
+
         a {
             text-decoration: none;
             color: var(--jaune);
             font-weight: bold;
             padding: 0;
             margin: 0;
+
+            @media (min-width: 768px) {
+              &:first-of-type {
+                margin-left: 3em;
+              }
+
+              &:last-of-type {
+                margin-right: 3em;
+              }
+            }
 
             &:hover {
                 color: var(--lightblue);
@@ -91,6 +138,7 @@ body {
       background-color: var(--purple);
       width: 100vw;
       height: 14em;
+      margin-top: 3em;
 
       div.first {
         padding-top: 0.5em;
@@ -102,15 +150,15 @@ body {
           padding: 0;
           margin: 0;
 
-          &:hover {
+          a:hover {
             color: var(--lightblue);
           }
 
-          &:visited {
+          a:visited {
             color: var(--lightblue);
           }
 
-          &:active {
+          a:active {
             color: var(--darkblue);   
           }
         } 
@@ -123,7 +171,7 @@ body {
           text-decoration: none;
           color: var(--jaune);
           font-weight: bold;
-          padding: 0;
+          padding: 0 1em;
           margin: 0;
 
           &:hover {
@@ -146,9 +194,10 @@ body {
 
     div.home {
         justify-content: center;
+        padding-top: 2em;
 
             img {
-                width: 90vw;
+                width: 80vw;
                 margin-top: 0;
                 padding-top: 0;
             }
@@ -158,18 +207,34 @@ body {
 
               img.fondblanc {
                 position: absolute;
-                left: 5em;
-                top: 3.5em;
+                left: 5.7em;
+                top: 2.5em;
                 rotate: 20deg;
                 width: 55vw;
                 z-index: -10;
                 opacity: 40%;
+
+                @media (min-width: 576px) {
+                  left: 25vw;
+                  top: 4em;
+                }
               }
             }
 
-            div.warning {
+            div.tv {
+
+              img {
+                width: 60vw;
+              }
+            }
+
+            div.warning, div.changelog {
               strong {
                 font-weight: bolder;
+              }
+
+              @media (min-width: 768px) {
+                padding: 0 3em;
               }
             }
         }
