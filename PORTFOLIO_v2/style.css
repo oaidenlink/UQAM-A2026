@@ -21,28 +21,6 @@ COLOURS:
     
 } */
 
-/*
-@media (min-width: 576px) {
-        background-color: red;
-      }
-
-      @media (min-width: 768px) {
-        background-color: red;
-      }
-
-      @media (min-width: 992px) {
-        background-color: red;
-      }
-
-              @media (min-width: 1200px) {
-                background-color: red;
-              }
-
-              @media (min-width: 1400px) {
-                background-color: red;
-              }
-*/
-
 :root {
     --jaune: #FBFFC2;
     --lightblue:  #7BFBFE;
@@ -81,6 +59,7 @@ body {
         font-size: 1.4em;
       }
     }
+    
     p {
       margin: auto 1.5em;
       margin-bottom: 1em;
