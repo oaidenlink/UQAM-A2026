@@ -22,99 +22,87 @@ COLOURS:
 } */
 
 :root {
-    --jaune: #FBFFC2;
-    --lightblue:  #7BFBFE;
-    --blue: #2DB7FA;
-    --indigo: #163466;
-    --darkblue: #040A29;
+    --darkest: #100F12;
+    --mid: #55515E;
+    --light: #ACB2BD;
     --purple: #1B1548;
 }
 
 body {
     color: white;
-    background: var(--darkblue);
+    background: var(--darkest);
     font-family: "Lexend", sans-serif;
     text-align: center;
     padding: 0;
     margin: auto 0;
+    
+    nav {
+      background-color: var(--purple);
+      width: 100vw;
+      height: 3em;
+      display: flex;
+      justify-content: space-around;
+      margin-left: -0.1em;
+      align-items: center;
+      font-size: 1.2em;
+      
+      a {
+        text-decoration: none;
+        color: var(--light);
+        font-weight: bold;
+        padding: 0;
+        margin: 0 3em;
+        
+        &:hover {
+          color: var(--mid);
+        }
+        
+        &:visited {
+          color: var(--light);
+        }
+        
+        &:active {
+          color: var(--darkest);   
+        }
+      } 
+    }
 
-    h1 {
-      font-family: StreetSoul;
-      font-size: 3em;
-      margin: 1em 0.5em;
-      margin-bottom: -1em;
-      padding-bottom: 0;
+    div.mainbody {
+      /* background-color: red; */
+      width: 80vw;
+      margin: 0 10vw;
+
+      
+      h1 {
+        font-family: StreetSoul;
+        font-size: 3em;
+        margin: 1em 0.5em;
+        margin-bottom: -1em;
+        padding-bottom: 0;
+        
+      }
+      
+      h2, h3 {
+        color: var(--mid);
+        text-transform: uppercase;
+        margin-top: 2em;
+        
+      }
+      
+      h3 {
+        font-size: 1.2em;
+      }
+      
+      p {
+        margin: auto 1.5em;
+        margin-bottom: 1em;
+      }
+      
       
     }
 
-    h2, h3 {
-      color: var(--blue);
-      text-transform: uppercase;
-      margin-top: 2em;
-
-    }
-    
-    @media (min-width: 768px) {
-      h3 {
-        font-size: 1.4em;
-      }
-    }
-    
-    p {
-      margin: auto 1.5em;
-      margin-bottom: 1em;
-    }
-
-    nav {
-      background-color: var(--purple);
-        width: 100vw;
-        height: 3em;
-        display: flex;
-        justify-content: space-around;
-        margin-left: -0.1em;
-        align-items: center;
-
-        @media (min-width: 576px) {
-          font-size: 1.1em;
-        }
-
-        @media (min-width: 768px) {
-          font-size: 1.2em;
-        }
-
-        a {
-            text-decoration: none;
-            color: var(--jaune);
-            font-weight: bold;
-            padding: 0;
-            margin: 0;
-
-            @media (min-width: 768px) {
-              &:first-of-type {
-                margin-left: 3em;
-              }
-
-              &:last-of-type {
-                margin-right: 3em;
-              }
-            }
-
-            &:hover {
-                color: var(--lightblue);
-            }
-
-            &:visited {
-                color: var(--jaune);
-            }
-
-            &:active {
-                color: var(--darkblue);   
-            }
-        } 
-    }
-
     footer {
-      background-color: var(--purple);
+      background-color: var(--mid);
       width: 100vw;
       height: 14em;
       margin-top: 3em;
@@ -124,21 +112,21 @@ body {
         margin-bottom: 2em;
 
         a {
-          color: var(--lightblue);
+          color: var(--light);
           font-weight: bold;
           padding: 0;
           margin: 0;
 
           a:hover {
-            color: var(--lightblue);
+            color: var(--light);
           }
 
           a:visited {
-            color: var(--lightblue);
+            color: var(--light);
           }
 
           a:active {
-            color: var(--darkblue);   
+            color: var(--darkest);   
           }
         } 
       }
@@ -148,21 +136,21 @@ body {
 
         a {
           text-decoration: none;
-          color: var(--jaune);
+          color: var(--purple);
           font-weight: bold;
           padding: 0 1em;
           margin: 0;
 
           &:hover {
-            color: var(--lightblue);
+            color: var(--purple);
           }
 
           &:visited {
-            color: var(--jaune);
+            color: var(--purple);
           }
 
           &:active {
-            color: var(--darkblue);   
+            color: var(--darkest);   
           }
         } 
       }
@@ -192,11 +180,6 @@ body {
                 width: 55vw;
                 z-index: -10;
                 opacity: 40%;
-
-                @media (min-width: 576px) {
-                  left: 25vw;
-                  top: 4em;
-                }
               }
             }
 
@@ -210,10 +193,6 @@ body {
             div.warning, div.changelog {
               strong {
                 font-weight: bolder;
-              }
-
-              @media (min-width: 768px) {
-                padding: 0 3em;
               }
             }
         }
@@ -245,7 +224,7 @@ body {
         justify-content: center;
 
         div.hobbiesBloc {
-          background-color: var(--indigo);
+          background-color: var(--purple);
           margin-bottom: 1em;
 
           h3 {
@@ -267,9 +246,9 @@ body {
         justify-content: center;
 
         div.apps {
-          background-color: var(--lightblue);
+          background-color: var(--light);
           border-radius: 5%;
-          color: var(--darkblue);
+          color: var(--darkest);
           width: 80vw;
           margin: auto;
           padding: 1em 0 0 0;
