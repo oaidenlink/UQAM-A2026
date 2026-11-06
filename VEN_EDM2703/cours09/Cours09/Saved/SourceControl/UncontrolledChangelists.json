@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours09/Cours09/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours09/Cours09/Content/Input/BP_MIDIServer.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours09/Cours09/Content/Input/BPI_MIDImsg.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours09/Cours09/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/V2/IDYUTS28J4BWJCCYRTRXPL.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours09/Cours09/Content/BP_CamChemin.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours09/Cours09/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/C7/8X1F3QI4SN4XW0XUK0LELU.uasset"
+			]
+		}
+	]
+}
