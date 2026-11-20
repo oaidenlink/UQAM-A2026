@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours11/Cours11/Content/NewWorld.umap",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours11/Cours11/Content/newMapppe.umap",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours11/Cours11/Content/BP_PawnCam.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours11/Cours11/Content/BP_GamemodeBase.uasset",
+				"/Users/dk090890/Documents/GITHUB/UQAM-A2026/VEN_EDM2703/cours11/Cours11/Content/BasicLevel.umap"
+			]
+		}
+	]
+}
